@@ -26,3 +26,29 @@
 <img src="Help/Download.PNG" style="height:250px;width:100%">
 ## Download
 <img src="Help/PDF.PNG" style="height:250px;width:100%">
+<a href="https://ekoopmans.github.io/html2pdf.js/">More Details...<a>
+<hr/>
+
+## Print Window
+```bash
+ <script>
+ document.getElementById("btn-print").onclick = function () {
+    debugger;
+    // Select Area
+    var area_id = document.getElementById("ParentDiv").innerHTML;
+    // Select body 
+    var body = document.body.innerHTML;
+    document.body.innerHTML = area_id;
+    window.print();
+    document.body.innerHTML = body;
+}
+ </script>
+```
+
+```bash
+$("#btn-print").click(function () {
+        $("#ParentDiv").printThis();
+         
+    });
+```
+<a href="https://jasonday.github.io/printThis/">More Details about printThis.......</a>
