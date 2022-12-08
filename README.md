@@ -20,3 +20,4 @@
         html2pdf().from(element).set().save();
     });
 ```
+<img src="Help/Capture.PNG" style="height:250px;width:100%">
