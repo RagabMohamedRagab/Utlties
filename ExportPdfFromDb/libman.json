@@ -1,0 +1,20 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "html2pdf.js@0.10.1",
+      "destination": "wwwroot/lib/html2pdf.js/",
+      "files": [
+        "html2pdf.bundle.min.js"
+      ]
+    },
+    {
+      "library": "printThis@1.15.0",
+      "destination": "wwwroot/lib/printThis/",
+      "files": [
+        "printThis.min.js"
+      ]
+    }
+  ]
+}

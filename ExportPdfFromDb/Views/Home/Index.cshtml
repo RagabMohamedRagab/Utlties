@@ -1,0 +1,39 @@
+﻿@model IList<Bill>;
+@{
+    ViewData["Title"] = "Bill";
+}
+<div class="mt-4 d-flex justify-content-between">
+    <button class="btn btn-primary" id="btn-print">Print Page</button>
+    <button id="PrintPDF" class="btn btn-primary">Print PDF</button>
+</div>
+<hr />
+<div id="ParentDiv">
+
+    <table class="table table-striped table-bordered table-responsive-md flex-md-nowrap mt-4">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Count</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var bill in Model)
+            {
+                <tr>
+                    <td>@bill.Id</td>
+                    <td>@bill.Name</td>
+                    <td>@bill.Count</td>
+                    <td>@bill.Price.ToString("0.00")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <div style="text-align:center;font-weight:bold">
+        <p>Total:<span>@ViewBag.TotalPrice</span></p>
+        
+    </div>
+</div>
+
+
