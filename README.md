@@ -20,4 +20,7 @@
         html2pdf().from(element).set().save();
     });
 ```
+## 3-Test
 <img src="Help/Capture.PNG" style="height:250px;width:100%">
+<br/>
+<img src="Help/Download.PNG" style="height:250px;width:100%">
