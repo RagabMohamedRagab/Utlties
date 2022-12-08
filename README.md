@@ -24,3 +24,5 @@
 <img src="Help/Capture.PNG" style="height:250px;width:100%">
 <br/>
 <img src="Help/Download.PNG" style="height:250px;width:100%">
+## Download
+<img src="Help/PDF.PNG" style="height:250px;width:100%">
